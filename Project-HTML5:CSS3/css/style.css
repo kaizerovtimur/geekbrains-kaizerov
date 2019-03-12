@@ -1,0 +1,587 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.padding-site {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.header {
+    min-height: 323px;
+    background-color: #445162;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-text-li {
+    list-style: none;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    position: relative;
+}
+
+.header-text-headline {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.header-text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-text-li:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 19px;
+    background-image: url(../img/icons/check-icon.png);
+    left: -36px;
+    bottom: 15px;
+}
+
+.header-text-ul {
+    margin-left: 36px;
+}
+
+.header-img {
+    background-image: url(/img/header-image.jpg);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 469px;
+    height: 214px;
+}
+
+.product-info-text-headline {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.product-info-text {
+    max-width: 653px;
+    margin-top: 50px;
+    margin-bottom: 93px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-info-text-p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.product-info {
+    min-height: 343px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-info-video {
+    background-image: url(../img/video.jpg);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 430px;
+    height: 245px;
+}
+
+.dignity-and-pluses-headline {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.dignity-and-pluses {
+    display: flex;
+    flex-direction: column;
+    min-height: 420px;
+    background-color: #f5f5f5;
+
+}
+
+.dignity-and-pluses-ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    margin-left: 41px;
+}
+
+.dignity-and-pluses-li {
+    list-style: none;
+    max-width: 526px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    position: relative;
+    line-height: 24px;
+}
+
+.dignity-and-pluses-li:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/icons/pluse-icon.jpg);
+    left: -41px;
+    bottom: 31px;
+}
+
+.screenshot {
+    display: flex;
+    max-width: 580px;
+    min-height: 150px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.screenshots-headline {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    margin-top: 50px;
+}
+
+.screenshot-headline {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.screenshot-description {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.screenshot-img {
+    background-image: url(../img/screenshot-image.jpg);
+    width: 200px;
+    height: 150px;
+}
+
+.screenshot-text {
+    max-width: 360px;
+    height: 150px;
+    margin-left: 15px;
+}
+
+.screenshots {
+    display: flex;
+    flex-direction: column;
+    min-height: 487px;
+}
+
+.screenshots-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    color: #445162;
+    font-size: 12px;
+    font-weight: 400;
+
+    letter-spacing: 0.3px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.review-user-picture {
+    width: 75px;
+    height: 75px;
+    background-image: url(../img/userpic.png);
+}
+
+.review-text {
+    width: 483px;
+    height: 121px;
+    background-image: url(../img/review-bg.png);
+    position: relative;
+    margin-left: 16px;
+}
+
+.review-quote {
+    position: absolute;
+    left: 27px;
+    top: 16px;
+    right: 20px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.review-cite {
+    position: relative;
+    top: 95px;
+    left: 27px;
+    color: #989898;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.review {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.reviews-headline {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 50px auto 35px auto;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    min-height: 425px;
+}
+
+.reviews-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+
+.offer {
+    background-color: #445162;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.offer-standart {
+    height: 306px;
+}
+
+.offer-premium {
+    height: 404px;
+}
+
+.offer-lux {
+    height: 500px;
+}
+
+.offers-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+    min-height: 656px;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+
+.offers-headline {
+    margin: 50px auto 30px auto;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.offer-headline {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 16px auto 17px auto;
+}
+
+.offer-cost {
+    margin: 0 auto 19px auto;
+    width: 294px;
+    height: 71px;
+    color: #445162;
+    font-size: 40px;
+    font-weight: 400;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer-li {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.offer-ol {
+    margin-left: 30px;
+}
+
+.offer-button {
+    color: #445161;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    width: 260px;
+    height: 40px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 5px 1px rgba(255, 255, 255, 0.35);
+    outline: none;
+}
+
+.offer-button:hover {
+    background-color: #e8e8e8;
+
+}
+
+.offer-button:active {
+    box-shadow: none;
+    box-shadow: 0 0px 5px 1px rgba(255, 255, 255, 0.35);
+    position: relative;
+    top: 2px;
+}
+
+.imput-name {
+    width: 500px;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.contacts {
+    background-color: #445162;
+    min-height: 509px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imput-email {
+    width: 500px;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.imput-text {
+    width: 500px;
+    height: 170px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contacts-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts-headline {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 50px auto 30px auto;
+
+}
+
+.placeholder {
+    position: absolute;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    left: 10px;
+}
+
+.input-button {
+    color: #445161;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    width: 140px;
+    height: 40px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 5px 1px rgba(255, 255, 255, 0.35);
+    outline: none;
+}
+
+.input-button:hover {
+    background-color: #e8e8e8;
+}
+
+.input-button:active {
+    box-shadow: none;
+    box-shadow: 0 0px 5px 1px rgba(255, 255, 255, 0.35);
+    position: relative;
+    top: 2px;
+}
+
+.contact {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 29px;
+    position: relative;
+}
+
+.contacts-skype:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 26px;
+    color: #ffffff;
+    background-image: url(../img/icons/skype_icon.png);
+    left: -30px;
+    bottom: -1px;
+}
+
+.contacts-icq:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    color: #ffffff;
+    background-image: url(../img/icons/icq_icon.png);
+    left: -30px;
+    bottom: -1px;
+}
+
+.contacts-mail:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    color: #ffffff;
+    background-image: url(../img/icons/email_icon.png);
+    left: -30px;
+    bottom: -1px;
+}
+
+.contacts-phone:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 23px;
+    color: #ffffff;
+    background-image: url(../img/icons/phone_icon.png);
+    left: -30px;
+    bottom: -1px;
+}
+
+.contacts-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+}
+
+.contacts-block {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contacts-logins {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+}
+
+.contacts-icons {
+    width: 240px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-twitter {
+    background-image: url(../img/icons/contacts-twitter.png);
+}
+
+.icon-facebook {
+    background-image: url(../img/icons/contacts-facebook.png);
+}
+
+.icon-in {
+    background-image: url(../img/icons/contacts-in.png);
+    background-color: #ffffff;
+    border-radius: 100%;
+}
+
+.icon-gmail {
+    background-image: url(../img/icons/contacts-gmail.png);
+}
+
+.icon-yt {
+    background-image: url(../img/icons/contacts-yt.png);
+    background-color: #ffffff;
+    border-radius: 100%;
+}
+
+a {
+    outline: none;
+}
