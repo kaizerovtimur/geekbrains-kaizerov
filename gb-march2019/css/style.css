@@ -26,7 +26,7 @@
 .logo {
     width: 181px;
     height: 56px;
-    background-image: url(/img/logo.svg);
+    background-image: url(../img/logo.svg);
 }
 
 a {
@@ -72,7 +72,7 @@ button {
     margin-left: 60px;
     width: 18px;
     height: 24px;
-    background-image: url(/img/icon-cart.svg);
+    background-image: url(../img/icon-cart.svg);
 }
 
 
@@ -144,13 +144,13 @@ button {
 .slider-arrow-right {
     width: 40px;
     height: 73px;
-    background-image: url(/img/right.png);
+    background-image: url(../img/right.png);
 }
 
 .slider-arrow-left {
     width: 40px;
     height: 73px;
-    background-image: url(/img/left.png);
+    background-image: url(../img/left.png);
 }
 
 .button:hover {
@@ -256,7 +256,7 @@ button {
 
 .opportunities {
     min-height: 700px;
-    background-image: url(/img/waxom-opportunities-bg.jpg);
+    background-image: url(../img/waxom-opportunities-bg.jpg);
     background-position: center;
 }
 
@@ -435,7 +435,7 @@ button {
 .nav-a-search {
     width: 24px;
     height: 24px;
-    background-image: url(/img/icon-search.svg);
+    background-image: url(../img/icon-search.svg);
 }
 
 .menu-block-icon-dev {
@@ -464,7 +464,7 @@ button {
 
 
 .video {
-    background-image: url(/img/video.jpg);
+    background-image: url(../img/video.jpg);
     min-height: 705px;
     background-position: center;
     display: flex;
@@ -474,7 +474,7 @@ button {
 }
 
 .mobile-devices-img {
-    background-image: url(/img/mobile-devices.jpg);
+    background-image: url(../img/mobile-devices.jpg);
     height: 616px;
     width: 423px;
     margin-top: 80px;
@@ -591,17 +591,17 @@ button {
 
 .recent-posts-headline {
     color: #555555;
-font-size: 30px;
-font-weight: 400;
+    font-size: 30px;
+    font-weight: 400;
     margin-top: 80px;
 }
 
 .recent-posts-text {
     color: #8c8c8c;
-font-family: Montserrat;
-font-size: 16px;
-font-weight: 300;
-line-height: 28px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
     text-align: center;
     max-width: 760px;
 }
@@ -622,27 +622,27 @@ line-height: 28px;
 
 .recent-posts-aticle-headline {
     color: #555555;
-font-family: Raleway;
-font-size: 20px;
-font-weight: 500;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
     margin-left: 30px;
 }
 
 .recent-posts-aticle-text {
     color: #8c8c8c;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 300;
-line-height: 22px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
     margin-left: 30px;
 }
 
 .recent-posts-aticle-a {
     color: #c7b299;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 300;
-line-height: 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
     margin-bottom: 35px;
     margin-left: 30px;
     position: relative;
@@ -661,7 +661,7 @@ line-height: 20px;
 .recent-posts-mainblock {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
 }
 
 .recent-posts-aticle:first-child {
@@ -677,7 +677,7 @@ line-height: 20px;
 }
 
 .recent-posts-pagination-button-right {
-     width: 22px;
+    width: 22px;
     height: 22px;
     border-radius: 50%;
     border-color: #d1d1d1;
@@ -691,7 +691,7 @@ line-height: 20px;
     top: 4px;
     right: 6px;
     margin-left: 8px;
-    
+
 }
 
 .fa-chevron-left {
@@ -730,7 +730,7 @@ line-height: 20px;
 
 
 .logo:hover {
-    background-image: url(/img/logo-hover.svg);
+    background-image: url(../img/logo-hover.svg);
 }
 
 .fa-caret-right {
@@ -740,7 +740,7 @@ line-height: 20px;
 }
 
 .recent-posts-aticle-a:hover {
-     text-decoration: underline;
+    text-decoration: underline;
 }
 
 .recent-posts-mainblock-dateblock {
@@ -760,10 +760,10 @@ line-height: 20px;
 
 .recent-posts-mainblock-dateblock-day {
     color: #ffffff;
-font-family: Montserrat;
-font-size: 24px;
-font-weight: 300;
-line-height: 20px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 20px;
     display: block;
     width: 100%;
     text-align: center;
@@ -772,10 +772,10 @@ line-height: 20px;
 
 .recent-posts-mainblock-dateblock-month {
     color: #ffffff;
-font-family: Roboto;
-font-size: 12px;
-font-weight: 400;
-line-height: 20px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
     display: block;
     background-color: #252525;
     width: 100%;
@@ -814,7 +814,7 @@ line-height: 20px;
     position: absolute;
     top: 30%;
     left: 35%;
-    
+
 }
 
 .fa-link {
@@ -848,7 +848,7 @@ line-height: 20px;
     top: 33%;
     right: 40%;
     display: none;
-    
+
 }
 
 
@@ -862,7 +862,7 @@ line-height: 20px;
 
 .sponsors {
     min-height: 489px;
-    background-image: url(/img/footer-sposors-bg.jpg);
+    background-image: url(../img/footer-sposors-bg.jpg);
     background-position: center;
     display: flex;
     justify-content: center;
@@ -902,18 +902,18 @@ line-height: 20px;
 
 .video-headline {
     color: #ffffff;
-font-family: Raleway;
-font-size: 30px;
-font-weight: 500;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 500;
     margin-bottom: 30px;
 }
 
 .video-text {
     color: #ffffff;
-font-family: Montserrat;
-font-size: 16px;
-font-weight: 300;
-line-height: 28px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
     text-align: center;
     margin-bottom: 40px;
     max-width: 552px;
@@ -921,10 +921,10 @@ line-height: 28px;
 
 .video-time {
     color: #c7b299;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .menu-block:first-child {
@@ -942,9 +942,7 @@ line-height: 24px;
 
 
 
-.logo-footer:hover img {
-    
-}
+.logo-footer:hover img {}
 
 .main-footer-block {
     width: 270px;
@@ -956,20 +954,20 @@ line-height: 24px;
 
 .main-footer-block-text {
     color: #555555;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 300;
-line-height: 24px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
     margin-top: 30px;
     margin-bottom: 33px;
 }
 
 .main-footer-block-a {
     color: #d1d1d1;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
     position: relative;
 }
 
@@ -983,19 +981,19 @@ line-height: 20px;
 
 .main-footer-block-headline {
     color: #ffffff;
-font-family: Raleway;
-font-size: 24px;
-font-weight: 700;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
     margin-bottom: 35px;
-    
+
 }
 
 .main-footer-block-date {
     color: #363636;
-font-family: Montserrat;
-font-size: 12px;
-font-weight: 300;
-line-height: 20px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
 }
 
 .footer-underline {
@@ -1024,10 +1022,10 @@ line-height: 20px;
 
 .main-footer-block-count {
     color: #363636;
-font-family: Montserrat;
-font-size: 12px;
-font-weight: 300;
-line-height: 20px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
     margin-bottom: 23px;
 }
 
@@ -1039,9 +1037,9 @@ line-height: 20px;
 .twitter-a {
     color: #00bff3;
     font-family: Montserrat;
-font-size: 14px;
-font-weight: 300;
-line-height: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
 }
 
 .twitter-a:hover {
@@ -1076,13 +1074,13 @@ line-height: 20px;
 
 
 .lower-footer-a {
-        color: #555555;
-font-family: Montserrat;
-font-size: 13px;
-font-weight: 300;
-line-height: 20px;
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
     margin-left: 15px;
-border-right: 1px solid #252525;
+    border-right: 1px solid #252525;
     padding-right: 15px;
 }
 
@@ -1095,20 +1093,20 @@ border-right: 1px solid #252525;
 }
 
 .grey {
-       color: #555555;
-font-family: Montserrat;
-font-size: 13px;
-font-weight: 300;
-line-height: 20px;
-     margin-left: 7px;
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-left: 7px;
 }
 
 .white {
-        color: #959595;
+    color: #959595;
     font-family: Montserrat;
-font-size: 13px;
-font-weight: 300;
-line-height: 20px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
     border-right: 1px solid #252525;
     padding-right: 15px;
 }
@@ -1116,4 +1114,3 @@ line-height: 20px;
 .white:last-child {
     border-right: none;
 }
-
